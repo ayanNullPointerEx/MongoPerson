@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb://root:example@localhost:27017/person_db
+      authentication-database: admin
+      database: person_db
+      hostname: localhost
+      username: root
+      password: example
+      port: 27017
+#    autoconfigure:
+#      exclude: org.springframework.boot.autoconfigure.mongo.embedded.EmbeddedMongoAutoConfiguration
